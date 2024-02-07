@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<link rel="shortcut icon" href="enfermera.png">
+	<title>HapphyBirthday-Esmélida</title>
+	<meta content="https://iloveyouEsmelida.ediquis.app/" property="og:url" data-rh="true">
+	<meta content="Para Esmélida" property="og:title" data-rh="true">
+	<meta content="💝👩‍⚕️En este día tan especial para tí. Te deseo toda la felicidad del mundo, que todos tus deseos se hagan realidad" property="og:description" data-rh="true">
+	<script src="fabric.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--Su sonrisa es el remedio más efectivo, y su compasión es el bálsamo que alivia cualquier preocupación-->
+</head>
+<style type="text/css">
+	
+	.body_backgorund {
+    background-image:url(hOye.gif);
+    background-position:center;
+    background-size:cover;
+}
+#myCanvas{
+   border-width:10px;
+   background-color: white;
+   border-style: ridge;
+   border-color: goldenrod;
+}
+</style>
+<body class="body_backgorund" onload="new_image()">
+	<center>
+		<br><br>
+		<!--- Create canvas --->
+		<canvas width="600" height="400" id="myCanvas"></canvas>
+		<br>
+		<!--- Create Bootstrap button --->
+		<button class="btn btn-warning btn-lg" onclick="playSound()">🎧Felíz Cumpleaños</button>
+	</center>
+	<audio id="myAudio" src="felizcumple.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+</html>
